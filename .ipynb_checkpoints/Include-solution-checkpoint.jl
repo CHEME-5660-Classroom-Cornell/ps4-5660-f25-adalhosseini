@@ -11,7 +11,6 @@ if (isfile(joinpath(_ROOT, "Manifest.toml")) == false) # have manifest file, we 
 end
 
 # load external packages -
-using IJulia
 using VLQuantitativeFinancePackage
 using DataFrames
 using CSV
